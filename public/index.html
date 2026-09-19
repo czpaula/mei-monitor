@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel de construção · Cruzeta Forge</title>
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="marca">
+      <img src="img/logo.svg" alt="" width="40" height="40">
+      <div>
+        <strong>Cruzeta Forge Tecnologia</strong>
+        <span>Painel de construção da empresa</span>
+      </div>
+    </div>
+    <div id="resumo-geral" class="resumo-geral" aria-live="polite"></div>
+  </header>
+
+  <div class="layout">
+    <nav id="menu-areas" class="menu" aria-label="Áreas da empresa"></nav>
+    <main id="conteudo" class="conteudo" tabindex="-1">
+      <p class="vazio">Carregando…</p>
+    </main>
+  </div>
+
+  <div id="aviso" class="aviso" role="status" aria-live="polite" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>
